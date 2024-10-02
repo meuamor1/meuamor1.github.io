@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você me ama?</title>
+</head>
+
+<body>
+    <div id="conteudo">
+        <h1>Você me odeiaaaaaaaaa ;-; </h1>
+         
+          <video src="./cachorro.mp4" class="video" autoplay loop muted></video>
+          <p>
+            <button class="btn" onclick="sim()">VOLTAR</button>
+            </p>
+    </div>
+
+        
+</body>
+<style>
+    #conteudo {
+        background: #ff7a7a;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        text-align: center;
+        font-family: sans-serif;
+    }    
+    .video{
+        
+        width:900px;
+    
+       
+    }
+    .btn {
+        background: black;
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 70px;
+        border-radius: 5px;
+        float: right;
+        margin: 0px 270px ;
+    
+        
+    }
+</style>
+
+<script>
+    function sim() {
+        
+        location.href = "./sim.html";
+    }
+    function nao() {
+        location.href = "./sim.html";
+    }
+</script>
+
+</html>
